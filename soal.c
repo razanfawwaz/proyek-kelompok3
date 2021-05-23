@@ -98,6 +98,7 @@
             exit(0);
     }
 }
+  //tampilan awal
   printf("================ Kuis Biologi ===============\n");
   printf("<3 AYO MENJAWAB KUIS---AGAR SEMAKIN PINTAR <3\n\n");
 
