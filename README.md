@@ -9,7 +9,7 @@ Jurusan Informatika Universitas Syiah Kuala
 Anggota
 1. Muhammad Razan Fawwaz - 2008107010098
 2. Rahmi Susanti - 2008107010092
-3. Muhammad Fhonna
+3. Muhammad Fhonna Fhalevi - 2008107010085
 4. Tassyirifiyya - 2008107010040
 
 ## Cara Bermain
