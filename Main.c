@@ -117,7 +117,7 @@ int main (int loginSystem, char *login[])
        poin7 = 0;
      }
       if(jawab8 == 'd' || jawab5 == 'D'){
-       poin8 = poin + 20;
+       poin8 = poin + 10;
      }else{
        poin8 = 0;
      }
