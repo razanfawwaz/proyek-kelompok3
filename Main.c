@@ -61,20 +61,20 @@ int main (int loginSystem, char *login[])
      if(total == 100){
        printf("\n\nSELAMAT! KAMU MEMBAWA PULANG UANG DENGAN NOMINAL Rp100.000.000,-\nDAN MOBIL, PAJAK DITANGGGUNG PEMENANG YAA :)");
      }
-     else if(total >= 80 && total < 100){
-       printf("\n\nLUAR BIASA! SELAMAT KAMU MEMBAWA UANG DENGAN NOMINAL Rp75.000.000,-\nPAJAK DITANGGUNG PEMENANG YAA :)");
+     else if(total > 81 && total < 100){
+       printf("\n\nLUAR BIASA! SELAMAT KAMU MEMBAWA PULANG UANG DENGAN NOMINAL Rp75.000.000,-\nPAJAK DITANGGUNG PEMENANG YAA :)");
      }
-     else if(total >= 60 && total < 80 ){
+     else if(total >= 61 && total <= 80 ){
        printf("\n\nADUH SEDIKIT LAGI, TAPI SELAMAT KAMU JUGA MEMBAWA PULANG UANG DENGAN\nNOMINAL Rp45.000.000,-\nPAJAK DITANGGUNG PEMENANG YAA :)");
      }
-     else if(total >= 50 && total < 60 ){
+     else if(total >= 41 && total <= 60 ){
        printf("\n\nJANGAN BERSEDIH, TETAP SEMANGAT YAA :). BTW, KAMU JUGA MENDAPATKAN UANG\nDENGAN NOMINAL Rp10.000.000,-\nPAJAK DITANGGUNG PEMENANG YAA :)");
      }
-     else if(total >= 40 && total < 50 ){
+     else if(total >= 21 && total <= 40 ){
        printf("\n\nHUHU, KAMU SUDAH BERUSAHA KOK, JANGAN SEDIH YAA.. KAMU JUGA MENDAPATKAN UANG\nSEBESAR Rp2.500.000,- ,PAJAK DITANGGUNG PEMENANG YAA :)");
      }
-     if(total <= 39){
-       printf("\n\nYAHHH, KAMU KURANG BERUNTUNG :(, MAAF YAA... SILAHKAN MENCOBA LAGI DI LAIN KESEMPATAN!");
+     if(total <= 20){
+       printf("\n\nYAHHH, KAMU KURANG BERUNTUNG :(\nMAAF YAA... SILAHKAN MENCOBA LAGI DI LAIN KESEMPATAN!");
      }
    }
 
@@ -223,6 +223,35 @@ int main (int loginSystem, char *login[])
       printf("Ups, Jawaban Anda Kurang Tepat :(\n");
     }
        getch();
+      
+    printf("\nSoal 8.\n2 + 2 x 0?\n");
+    printf("a. 0\nb. 4\nc. a dan d benar\nd. 2\n");
+    printf("Input jawaban (huruf) : ");
+    scanf(" %c",&jawab8);
+    if(jawab8 == 'd'){
+      printf("Hore! Jawaban Anda Benar! >.<\n");
+    } else {
+      printf("Ups, Jawaban Anda Kurang Tepat :(\n");
+    }
+      getch();
+    printf("\nSoal 9.\nIbu Kota Sulawesi Tenggara?\n");
+    printf("a. Kendari\nb. Banda Aceh\nc. Kupang\nd. Ambon\n");
+    printf("Input jawaban (huruf) : ");
+    scanf(" %c",&jawab9);
+    if(jawab9 == 'a'){
+      printf("Hore! Jawaban Anda Benar! >.<\n");
+    } else {
+      printf("Ups, Jawaban Anda Kurang Tepat :(\n");
+    }
+    printf("\nSoal 10.\nTokoh di Attack on Titan?\n");
+    printf("a. Upin\nb. Levi\nc. Nobita\nd. Saitama\n");
+    printf("Input jawaban (huruf) : ");
+    scanf(" %c",&jawab10);
+    if(jawab10 == 'b'){
+      printf("Hore! Jawaban Anda Benar! >.<\n");
+    } else {
+      printf("Ups, Jawaban Anda Kurang Tepat :(\n");
+    }
    }
 
    //fungsi menyambut user yang ingin mengerjakan kuis
