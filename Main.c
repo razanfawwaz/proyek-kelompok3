@@ -8,14 +8,13 @@ int main (int loginSystem, char *login[])
    
     if (loginSystem != 3)
     {
-        printf("Anda gagal login!");
+        printf("Anda harus login terlebih dahulu!");
+        printf("\nCara penggunaan : ./Kuis username password");
     }
 
     char usernameInput[10], passwordInput[10];
     strcpy(usernameInput, login[1]);
     strcpy(passwordInput, login[2]);
-
-
     //pointer
     FILE *fpr;
 
@@ -45,7 +44,7 @@ int main (int loginSystem, char *login[])
     
 
     if((strcmp(usernameInput, username) == 0) && (strcmp(passwordInput, password) == 0)){
-        printf("Halo %s selamat bermain!", username);
+        printf("Halo, selamat bermain!");
     }
     else {
         printf("Username atau Password anda salah!");
@@ -120,7 +119,7 @@ int main (int loginSystem, char *login[])
        poin7 = 0;
      }
       if(jawab8 == 'd' || jawab5 == 'D'){
-       poin8 = poin + 10;
+       poin8 = poin + 20;
      }else{
        poin8 = 0;
      }
@@ -152,7 +151,7 @@ int main (int loginSystem, char *login[])
      printf("\n\nSoal 1.\nRangka tersusun dari?\n");
      printf("a. Tulang dan daging\nb. Tulang dan otot\nc. Tulang dan kulit\nd. Tulang saja\n");
      printf("Input jawaban (huruf) : ");
-     scanf(" %c", &jawab1);
+     scanf(" %c",&jawab1);
      if(jawab1 == 'b'){
        printf("Hore! Jawaban Anda Benar! >.<\n");
      } else {
@@ -246,8 +245,6 @@ int main (int loginSystem, char *login[])
     } else {
       printf("Ups, Jawaban Anda Kurang Tepat :(\n");
     }
-      getch();
-      
     printf("\nSoal 10.\nTokoh di Attack on Titan?\n");
     printf("a. Upin\nb. Levi\nc. Nobita\nd. Saitama\n");
     printf("Input jawaban (huruf) : ");
@@ -283,7 +280,7 @@ int main (int loginSystem, char *login[])
     }
 }
   //tampilan awal
-  printf("\n================ !QUIZ BERHADIAH! ===============\n");
+  printf("================ !QUIZ BERHADIAH! ===============\n");
   printf("<3 AYO MENJAWAB KUIS---AGAR SEMAKIN PINTAR <3\n\n");
 
   welcome();
