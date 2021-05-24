@@ -56,7 +56,7 @@ int main (int loginSystem, char *login[])
     int pilih,total;
     int poin = 0;
     int poin1, poin2, poin3, poin4, poin5, poin6, poin7, poin8, poin9, poin10, poin11, poin12, poin13, poin14, poin15, poin16, poin17, poin18, poin19, poin20;
-    char jawab1, jawab2, jawab3, jawab4, jawab5, jawab6, jawab7, jawab8, jawab9, jawab10, jawab11, jawab12, jawab13, jawab14, jawab15, jawab16, jawab17, jawab18, jawab99, jawab20;
+    char jawab1, jawab2, jawab3, jawab4, jawab5, jawab6, jawab7, jawab8, jawab9, jawab10, jawab11, jawab12, jawab13, jawab14, jawab15, jawab16, jawab17, jawab18, jawab19, jawab20;
 ;
 
     //fungsi hadiah yang diberikan kepada user
@@ -288,6 +288,7 @@ int main (int loginSystem, char *login[])
       printf("Ups, Jawaban Anda Kurang Tepat :(\n");
     }
       getch();
+      
     printf("\nSoal 9.\nIbu Kota Sulawesi Tenggara?\n");
     printf("a. Kendari\nb. Banda Aceh\nc. Kupang\nd. Ambon\n");
     printf("Input jawaban (huruf) : ");
