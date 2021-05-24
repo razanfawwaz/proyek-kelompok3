@@ -12,6 +12,9 @@ int main (int loginSystem, char *login[])
     }
 
     char usernameInput[10], passwordInput[10];
+    strcpy(usernameInput, login[1]);
+    strcpy(passwordInput, login[2]);
+
 
     //pointer
     FILE *fpr;
@@ -42,7 +45,7 @@ int main (int loginSystem, char *login[])
     
 
     if((strcmp(usernameInput, username) == 0) && (strcmp(passwordInput, password) == 0)){
-        printf("Halo %s selamat bermain!");
+        printf("Halo %s selamat bermain!", username);
     }
     else {
         printf("Username atau Password anda salah!");
@@ -149,7 +152,7 @@ int main (int loginSystem, char *login[])
      printf("\n\nSoal 1.\nRangka tersusun dari?\n");
      printf("a. Tulang dan daging\nb. Tulang dan otot\nc. Tulang dan kulit\nd. Tulang saja\n");
      printf("Input jawaban (huruf) : ");
-     scanf(" %c",&jawab1);
+     scanf(" %c", &jawab1);
      if(jawab1 == 'b'){
        printf("Hore! Jawaban Anda Benar! >.<\n");
      } else {
@@ -280,7 +283,7 @@ int main (int loginSystem, char *login[])
     }
 }
   //tampilan awal
-  printf("================ !QUIZ BERHADIAH! ===============\n");
+  printf("\n================ !QUIZ BERHADIAH! ===============\n");
   printf("<3 AYO MENJAWAB KUIS---AGAR SEMAKIN PINTAR <3\n\n");
 
   welcome();
