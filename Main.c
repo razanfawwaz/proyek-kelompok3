@@ -44,7 +44,11 @@ int main (int loginSystem, char *login[])
     
 
     if((strcmp(usernameInput, username) == 0) && (strcmp(passwordInput, password) == 0)){
+<<<<<<< HEAD
         printf("Halo %s, selamat bermain!", username);
+=======
+        printf("Halo %s, selamat bermain!");
+>>>>>>> a35cb8a831b67544d2c5ade3eb28ad6d1a2eb8cb
     }
     else {
         printf("Username atau Password anda salah!");
