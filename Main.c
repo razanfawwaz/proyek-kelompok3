@@ -201,7 +201,7 @@ int main (int loginSystem, char *login[])
     }
 }
   //tampilan awal
-  printf("================ Kuis Biologi ===============\n");
+  printf("================ !QUIZ BERHADIAH! ===============\n");
   printf("<3 AYO MENJAWAB KUIS---AGAR SEMAKIN PINTAR <3\n\n");
 
   welcome();
