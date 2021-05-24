@@ -3,9 +3,10 @@
 #include <conio.h>
 
  int main(){
-   int pilih;
-   char jawab1, jawab2, jawab3, jawab4, jawab5;
-
+   
+  int pilih;
+  int score = 0;
+  char jawab1, jawab2, jawab3, jawab4, jawab5;
 
   //fungsi yang menampilkan soal kuis
    void soal(){
@@ -13,21 +14,17 @@
      printf("a. Tulang dan daging\nb. Tulang dan otot\nc. Tulang dan kulit\nd. Tulang saja\n");
      printf("Input jawaban (huruf) : ");
      scanf(" %c",&jawab1);
-
+     getch();
 
         //jika jawaban benar
-        int pilih = 0;{
-        if (jawab1=='b'){
-            pilih = pilih + 20;
-            printf("skor kamu : 20");
+        if (jawab1 =='b'){
+            score = score + 20;
+            printf("skor kamu: %s", score);
+            
         }
         else {
-            printf("skor kamu : 0");
+            printf("Kamu salah!");
         }
-        }
-        getch();
-
-
 
 
      printf("\nSoal 2.\nPadi di sawah pak Didi dimakan burung,");
@@ -39,9 +36,9 @@
        getch();
 
         //jika jawaban benar
-        if ("input==c"){
-            pilih = pilih + 20;
-            printf("skor kamu : 20", pilih);
+        if (jawab2){
+            score = score + 20;
+            printf("skor kamu: %s", score);
         }
 
      printf("\nSoal 3.\nHubungan antara benalu dan pohon mangga membentuk simbiosis?\n");
@@ -53,8 +50,8 @@
 
         //jika jawaban benar
         if ("input==b"){
-            pilih = pilih + 20;
-            printf("skor kamu adalah : 20", pilih);
+            score = score + 20;
+            printf("skor kamu adalah : 20", score);
         }
 
      printf("\nSoal 4.\nBenda yang bentuknya berubah-ubah mengikuti\nwadah,tetapi volumenya tetap disebut?\n");
@@ -66,8 +63,8 @@
 
         //jika jawaban benar
         if ("input==b"){
-            pilih = pilih + 20;
-            printf("skor kamu : 20", pilih);
+            score = score + 20;
+            printf("skor kamu : 20", score);
         }
 
     printf("\nSoal 5.\nTelur kupu-kupu menetas menjadi?\n");
@@ -77,8 +74,8 @@
 
      //jika jawaban benar
         if ("input==b"){
-            pilih = pilih + 20;
-            printf("skor kamu :20", pilih);
+            score = score + 20;
+            printf("skor kamu :20", score);
         }
    }
 
@@ -87,7 +84,7 @@
     printf("1. Kuis\n");
     printf("2. Keluar\n");
 
-    printf("Input Pilihan Anda : ");
+    printf("Input pilihan Anda : ");
     scanf("%d", &pilih);
     getchar();
 

@@ -11,6 +11,8 @@ int main (char *login[])
     scanf(" %[^\n]s", usernameInput);
     printf("Password: ");
     scanf(" %[^\n]s", passwordInput);
+
+    //pointer
     FILE *fpr;
 
     if ((fpr = fopen("database/login.bin", "rb")) == NULL){
@@ -19,7 +21,7 @@ int main (char *login[])
     }
 
     char userData[20];
-    fread(userData, sizeof(char), sizeof(userData)/sizeof(char), fpr);
+        fread(userData, sizeof(char), sizeof(userData)/sizeof(char), fpr);
 
     fclose(fpr);
 

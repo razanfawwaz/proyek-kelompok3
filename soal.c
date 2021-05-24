@@ -11,22 +11,22 @@
   
   //fungsi hadiah yang diberikan kepada user
   void hadiah(){
-     if(total = 100){
+     if(total == 100){
        printf("\n\nSELAMAT! KAMU MEMBAWA PULANG UANG DENGAN NOMINAL Rp100.000.000,-\nDAN MOBIL, PAJAK DITANGGGUNG PEMENANG YAA :)");
      }
-     else if(total = 80){
+     else if(total >= 80 && total < 100){
        printf("\n\nLUAR BIASA! SELAMAT KAMU MEMBAWA UANG DENGAN NOMINAL Rp75.000.000,-\nPAJAK DITANGGUNG PEMENANG YAA :)");
      }
-     else if(total = 60){
+     else if(total >= 60 && total < 80 ){
        printf("\n\nADUH SEDIKIT LAGI, TAPI SELAMAT KAMU JUGA MEMBAWA PULANG UANG DENGAN\nNOMINAL Rp45.000.000,-\nPAJAK DITANGGUNG PEMENANG YAA :)");
      }
-     else if(total = 40){
+     else if(total >= 50 && total < 60 ){
        printf("\n\nJANGAN BERSEDIH, TETAP SEMANGAT YAA :). BTW, KAMU JUGA MENDAPATKAN UANG\nDENGAN NOMINAL Rp10.000.000,-\nPAJAK DITANGGUNG PEMENANG YAA :)");
      }
-     else if(total = 20){
+     else if(total >= 40 && total < 50 ){
        printf("\n\nHUHU, KAMU SUDAH BERUSAHA KOK, JANGAN SEDIH YAA.. KAMU JUGA MENDAPATKAN UANG\nSEBESAR Rp2.500.000,- ,PAJAK DITANGGUNG PEMENANG YAA :)");
      }
-     if(total = 0){
+     if(total <= 39){
        printf("\n\nYAHHH, KAMU KURANG BERUNTUNG :(, MAAF YAA... SILAHKAN MENCOBA LAGI DI LAIN KESEMPATAN!");
      }
    }
@@ -53,7 +53,7 @@
      }else{
        poin4 = 0;
      }
-     if(jawab5 == 'b' || jawab5 == 'B'){
+     if(jawab5 == 'a' || jawab5 == 'A'){
        poin5 = poin + 20;
      }else{
        poin5 = 0;
