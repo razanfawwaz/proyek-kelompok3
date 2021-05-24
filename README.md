@@ -1,4 +1,4 @@
-# proyek-kelompok3
+# Proyek Kelompok 3 Lab Pemrograman A
 [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/badges.svg)](https://github.com/razanfawwaz/proyek-kelompok3/graphs/contributors)
 </br>
 ## Introduction
