@@ -52,8 +52,8 @@ int main (int loginSystem, char *login[])
 
     int pilih,total;
     int poin = 0;
-    int poin1, poin2, poin3, poin4, poin5;
-    char jawab1, jawab2, jawab3, jawab4, jawab5;
+    int poin1, poin2, poin3, poin4, poin5, poin6, poin7, poin8, poin9, poin10;
+    char jawab1, jawab2, jawab3, jawab4, jawab5, jawab6, jawab7, jawab8, jawab9, jawab10;
 
     //fungsi hadiah yang diberikan kepada user
 
@@ -82,31 +82,56 @@ int main (int loginSystem, char *login[])
 
    void nilai(){
      if(jawab1 == 'b' || jawab1 == 'B'){
-       poin1 = poin + 20;
+       poin1 = poin + 10;
      }else{
        poin1 = 0;
      }
      if(jawab2 == 'c' || jawab2 == 'C'){
-       poin2 = poin + 20;
+       poin2 = poin + 10;
      }else{
        poin2 = 0;
      }
      if(jawab3 == 'b' || jawab3 == 'B'){
-       poin3 = poin + 20;
+       poin3 = poin + 10;
      }else{
        poin3 = 0;
      }
      if(jawab4 == 'b' || jawab4 == 'B'){
-       poin4 = poin + 20;
+       poin4 = poin + 10;
      }else{
        poin4 = 0;
      }
      if(jawab5 == 'a' || jawab5 == 'A'){
-       poin5 = poin + 20;
+       poin5 = poin + 10;
      }else{
        poin5 = 0;
      }
-     total = poin1 + poin2 + poin3 + poin4 + poin5;
+       if(jawab6 == 'c' || jawab6 == 'C'){
+       poin6 = poin + 10;
+     }else{
+       poin6 = 0;
+     }
+      if(jawab7 == 'a' || jawab7 == 'A'){
+       poin7 = poin + 10;
+     }else{
+       poin7 = 0;
+     }
+      if(jawab8 == 'd' || jawab5 == 'D'){
+       poin8 = poin + 20;
+     }else{
+       poin8 = 0;
+     }
+       if(jawab9 == 'a' || jawab9 == 'A'){
+       poin9 = poin + 10;
+     }else{
+       poin9 = 0;
+     }
+       if(jawab10 == 'b' || jawab10 == 'B'){
+       poin10 = poin + 10;
+     }else{
+       poin10 = 0;
+     }
+     total = poin1 + poin2 + poin3 + poin4 + poin5 + poin6 + poin7 + poin8 + poin9 + poin10;
      printf("\nWah Kamu Berhasil Mendapatkan Poin Sebanyak %d", total);
    }
     //fungsi yang menampilkan soal kuis
@@ -175,6 +200,29 @@ int main (int loginSystem, char *login[])
     } else {
       printf("Ups, Jawaban Anda Kurang Tepat :(\n");
     }
+       getch();
+      
+    printf("\nSoal 6.\nHewan yang memiliki metamorfosis sempurna adalah?\n");
+    printf("a. Ular\nb. Kuda\nc. Kupu-kupu\nd. Kucing\n");
+    printf("Input jawaban (huruf) : ");
+    scanf(" %c",&jawab6);
+    if(jawab6 == 'c'){
+      printf("Hore! Jawaban Anda Benar! >.<\n");
+    } else {
+      printf("Ups, Jawaban Anda Kurang Tepat :(\n");
+    }
+       getch();
+      
+    printf("\nSoal 7.\nYang termasuk hewan omnivora adalah?\n");
+    printf("a. Beruang\nb. Kupu-kupu\nc. Domba\nd. Sapi\n");
+    printf("Input jawaban (huruf) : ");
+    scanf(" %c",&jawab7);
+    if(jawab7 == 'a'){
+      printf("Hore! Jawaban Anda Benar! >.<\n");
+    } else {
+      printf("Ups, Jawaban Anda Kurang Tepat :(\n");
+    }
+       getch();
    }
 
    //fungsi menyambut user yang ingin mengerjakan kuis
