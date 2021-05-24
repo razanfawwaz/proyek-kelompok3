@@ -243,6 +243,8 @@ int main (int loginSystem, char *login[])
     } else {
       printf("Ups, Jawaban Anda Kurang Tepat :(\n");
     }
+      getch();
+      
     printf("\nSoal 10.\nTokoh di Attack on Titan?\n");
     printf("a. Upin\nb. Levi\nc. Nobita\nd. Saitama\n");
     printf("Input jawaban (huruf) : ");
