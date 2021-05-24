@@ -48,7 +48,6 @@ int main (int loginSystem, char *login[])
         printf("Username atau Password anda salah!");
     }
 
-/*
     // deklarasi variabel soal
 
     int pilih,total;
@@ -211,5 +210,4 @@ int main (int loginSystem, char *login[])
   
   printf("\n\n------------Kuis Telah Selesai--------------");
   return 0;
-  */
 }
