@@ -1,5 +1,6 @@
 # proyek-kelompok3
 [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/badges.svg)](https://github.com/razanfawwaz/proyek-kelompok3/graphs/contributors)
+</br>
 Proyek Lab Pemrograman Kelompok 3
 Jurusan Informatika Universitas Syiah Kuala
 2021
